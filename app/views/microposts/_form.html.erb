@@ -13,12 +13,12 @@
 
   <div class="field">
     <%= form.label :content %>
-    <%= form.text_area :content %>
+    <%= form.text_area :content , :class => "form-control", :autocomplete => "off"%>
   </div>
 
   <div class="field">
     <%= form.label :user_id %>
-    <%= form.number_field :user_id %>
+    <%= form.number_field :user_id, :class => "form-control", :autocomplete => "off" %>
   </div>
 
   <div class="actions">
